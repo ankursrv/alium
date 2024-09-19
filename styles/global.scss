@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -26,3 +28,35 @@ body {
   }
 }
 
+
+body {
+  @apply font-primary text-base leading-6; 
+}
+
+h1 {
+  @apply font-bold text-5xl
+}
+
+h2 {
+  @apply font-semibold text-[32px]
+}
+
+h3 {
+  @apply font-semibold text-2xl
+}
+
+h4 {
+  @apply font-semibold text-xl
+}
+
+.paragraph-1 {
+  @apply text-2xl
+}
+
+.paragraph-2 {
+  @apply text-xl
+}
+
+.edgecase {
+  @apply text-sm  
+}
