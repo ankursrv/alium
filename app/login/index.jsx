@@ -72,9 +72,9 @@ const Login = () => {
             {/* form  */}
 
             <form>
-              <div className="relative">
+              <div className="">
                 {inputFields.map((inputItem) => (
-                  <div className="mb-5">
+                  <div className="mb-5 relative">
                   <InputField
                     label={inputItem.label}
                     id={inputItem.id}
@@ -82,13 +82,16 @@ const Login = () => {
                     placeholder={inputItem.placeholder}
                     required="true"
                   />
-                  <Image
-                  className="absolute top-11 right-4"
-                  src="../images/eye-off.svg"
-                  alt="eye icon"
-                  width={20}
-                  height={20}
-                />
+                        {/* Only render the image if the input type is 'password' */}
+                        {inputItem.type === 'password' && (
+                            <Image
+                                className="absolute top-11 right-4 cursor-pointer"
+                                src="../images/eye-off.svg"
+                                alt="eye icon"
+                                width={20}
+                                height={20}
+                            />
+                        )}
                   </div>
                 ))}
               </div>
