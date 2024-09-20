@@ -24,14 +24,14 @@ module.exports = {
       colors: {
         primary: {
           DEFAULT: '#3B37FF',
-          "primary-hover-dark": '#030072',
-          "primary-hover-light": '#efefff',
+          "hover-dark": '#030072',
+          "hover-light": '#efefff',
         },
 
         secondary: {
           DEFAULT: '#ffccdc',
-          "secondary-hover-dark": '#ffccdc',
-          "secondary-hover-light": '#ffccdc',
+          "hover-dark": '#ffccdc',
+          "hover-light": '#ffccdc',
         },
         'gray-light':'#727272',
         'gray-dark':'#4F4F4F',
