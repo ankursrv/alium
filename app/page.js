@@ -1,10 +1,15 @@
 import Login from "./login";
+import CreateAccount from "./CreateAccount";
 
+import React from 'react'
 
-export default function Home() {
+const Home = () => {
   return (
-   <main>
-    <Login />
-   </main>
-  );
+    <main>
+      <Login />
+      <CreateAccount />
+    </main>
+  )
 }
+
+export default Home
