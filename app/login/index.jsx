@@ -29,7 +29,7 @@ const Login = () => {
                         <div>
                             <figure className='pt- 16'>
                                 <Image
-                                    src="../images/loginimg2.svg"
+                                    src="../images/loginimg.svg"
                                     alt="login image"
                                     width={405}
                                     height={293}
@@ -84,7 +84,7 @@ const Login = () => {
                         <div className='flex flex-col gap-6 mt-6'>
                             {/* item-1  */}
                             <div className='flex items-center justify-center'>
-                                <p className='font-medium text-gray-light mr-2 hover:bg-secondary-secondary-hover-dark'>Don’t have an account?</p>
+                                <p className='font-medium text-gray-light mr-2'>Don’t have an account?</p>
                                 <a href="#" className='font-bold text-primary'>Sign up</a>
                             </div>
                             {/* item-2  */}
