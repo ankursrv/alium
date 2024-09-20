@@ -4,50 +4,59 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+// :root {
+//   --background: #ffffff;
+//   --foreground: #171717;
+// }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+// @media (prefers-color-scheme: dark) {
+//   :root {
+//     --background: #0a0a0a;
+//     --foreground: #ededed;
+//   }
+// }
+
+// body {
+//   color: var(--foreground);
+//   background: var(--background);
+//   font-family: Arial, Helvetica, sans-serif;
+// }
+
+// @layer utilities {
+//   .text-balance {
+//     text-wrap: balance;
+//   }
+// }
+
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}
-
-
-body {
-  @apply font-primary text-base leading-6; 
+  @apply font-primary text-base leading-6 text-gray-light; 
 }
 
 h1 {
-  @apply font-bold text-5xl
+  @apply font-bold text-5xl leading-[61px]
 }
 
 h2 {
-  @apply font-semibold text-[32px]
+  @apply font-bold text-[40px] leading-[48px]
 }
 
-h3 {
-  @apply font-semibold text-2xl
+h3{
+   @apply font-semibold text-[32px] 
 }
 
 h4 {
+  @apply font-semibold text-[28px]
+}
+
+h5 {
+  @apply font-semibold text-2xl
+}
+
+h6 {
   @apply font-semibold text-xl
 }
+
 
 .paragraph-1 {
   @apply text-2xl

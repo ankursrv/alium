@@ -33,7 +33,12 @@ module.exports = {
           "secondary-hover-dark": '#ffccdc',
           "secondary-hover-light": '#ffccdc',
         },
-
+        'gray-light':'#727272',
+        'gray-dark':'#4F4F4F',
+        black:'#111111',
+      },
+      borderColor:{
+      borderPrimary:'#CFCFCF',
       },
     },
   },
