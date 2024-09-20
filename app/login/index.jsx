@@ -23,7 +23,7 @@ const Login = () => {
                             <p className='text-white max-w-[340px]'>
                                 Lorem ipsum dolor sit amet consectetur.
                                 Neque sit at adipiscing massa et sem
-                                tempus. At None
+                                tempus. At non
                             </p>
                         </div>
                         <div>
