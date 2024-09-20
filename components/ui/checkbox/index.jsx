@@ -9,7 +9,7 @@ const CheckBox = ({
     customClass = '',
     text
 }) => {
-    const baseStyle = "peer cursor-pointer appearance-none rounded-md transition-all duration-300 border-[1.6px] border-borderPrimary"
+    const baseStyle = "peer cursor-pointer appearance-none rounded transition-all duration-300 border-[1.6px]"
 
     const sizes = {
         sm: "w-5 h-5",
@@ -18,8 +18,8 @@ const CheckBox = ({
     }
 
     const variants = {
-        primary: "bg-white checked:bg-primary checked:border-0 hover:border-primary",
-        secondary: 'bg-green-800'
+        primary: "bg-white checked:bg-primary checked:border-0 hover:border-primary border-borderPrimary",
+        secondary: 'bg-green-800 border-borderSecondary border'
     }
     return (
         <div className={`inline-flex items-center relative gap-2 ${customClass}`}>

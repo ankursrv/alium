@@ -39,6 +39,7 @@ module.exports = {
       },
       borderColor:{
       borderPrimary:'#CFCFCF',
+      borderSecondary:'#3B37FF',
       },
     },
   },
