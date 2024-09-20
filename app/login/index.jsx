@@ -18,7 +18,7 @@ const Login = () => {
                     {/* left  */}
                     <div className='bg-primary p-12 xl:max-w-[515px] rounded-2xl w-1/2 h-screen flex flex-col justify-between'>
                         <div>
-                            <small className='text-white font-extrabold text-xl pb-20 block'>Alium</small>
+                            <small className='text-white font-extrabold text-xl pb-20 block'>pramod</small>
                             <h1 className='text-white mb-6'>Start your <br /> journey with us..</h1>
                             <p className='text-white max-w-[340px]'>
                                 Lorem ipsum dolor sit amet consectetur.
