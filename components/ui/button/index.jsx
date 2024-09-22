@@ -1,4 +1,4 @@
-const Button = ({ label, icon, onClick, type, className='', variant = 'primary' }) => {
+const Button = ({ text, icon, onClick, type, className='', id='', variant = 'primary' }) => {
     // Apply different styles based on the variant prop
     const baseStyles = "flex items-center justify-center transition-all";
 
@@ -12,10 +12,11 @@ const Button = ({ label, icon, onClick, type, className='', variant = 'primary' 
             className={`${baseStyles} ${variants[variant]} ${className}`}
             onClick={onClick}
             type={type}
+            id={id}
         >
             {/* Icon if passed */}
             {icon && <span className="flex pr-3">{icon}</span>}
-            {label}
+            {text}
         </button>
     );
 };

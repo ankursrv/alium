@@ -1,14 +1,14 @@
 import React from 'react'
 import Image from 'next/image'
 
-const LoginLeft = ({title,heading,discription,image}) => {
+const LoginLeftSec = ({title,heading,discription,image}) => {
     return (
         <div className="bg-primary p-12 xl:max-w-[515px] rounded-2xl w-1/2 h-screen flex flex-col justify-between">
             <div>
                 <small className="text-white font-extrabold text-xl pb-20 block">
                     {title}
                 </small>
-                <h1 className="text-white mb-6">
+                <h1 className="text-white mb-6 max-w-[366px]">
                     {heading}
                     {/* Start your <br /> journey with us.. */}
                 </h1>
@@ -32,4 +32,4 @@ const LoginLeft = ({title,heading,discription,image}) => {
     )
 }
 
-export default LoginLeft
+export default LoginLeftSec

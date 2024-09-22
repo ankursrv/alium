@@ -4,7 +4,7 @@ import React from 'react';
 const InputField = ({ className, label, id, type = 'text', placeholder, required = false }) => {
   return (
     <>
-      <label htmlFor={id} className="block mb-[6px] font-semibold text-black">
+      <label className="block mb-[6px] font-semibold text-black">
         {label}
       </label>
       <div>
