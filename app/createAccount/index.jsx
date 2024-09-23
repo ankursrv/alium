@@ -31,7 +31,8 @@ const CreateAccount = () => {
             discription='Register for a new membership'
             haveAnAccount='Already have an account?'
             signup='Sign in'
-            optionTxt='OR'
+            // optionTxt='OR'
+            showDevide={true}
             inputFields={inputFields} // Pass the input fields dynamically
             showForm={true}  // Form will be shown
             formButtons={loginButtons}  // Form Submit button

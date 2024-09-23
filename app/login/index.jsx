@@ -38,7 +38,8 @@ const Login = () => {
                         discription='Welcome back! please enter your details'
                         haveAnAccount='Don’t have an account?'
                         signup='Sign up'
-                        optionTxt='OR'
+                        // optionTxt='OR'
+                        showDevide={true}
                         inputFields={formInputField} // Pass the input fields dynamically
                         showForm={true}  // Form will be shown
                         formButtons={formSignUP}    //Form SignUP Button

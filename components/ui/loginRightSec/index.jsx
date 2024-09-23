@@ -11,7 +11,7 @@ const socialLogInButton = [
     { text: "Github", id: "github", icon: "../images/github.svg" },
 ];
 
-const LoginRightSec = ({ heading, discription, haveAnAccount, signup, optionTxt, inputFields = [], formButtons = [], showForm = true, showCheckbox = false, socialLogInButtons = false, showDevide=true }) => {
+const LoginRightSec = ({ heading, discription, haveAnAccount, signup, inputFields = [], formButtons = [], showForm = true, showCheckbox = false, socialLogInButtons = false, showDevide=true }) => {
     return (
         <div className="md:px-[7rem] w-full md:w-1/2 mx-auto">
             {/* text  */}
@@ -105,7 +105,7 @@ const LoginRightSec = ({ heading, discription, haveAnAccount, signup, optionTxt,
                     showDevide && (
                         <div>
                             <p className="text-center font-bold text-black bg-white w-fit mx-auto px-8 relative z-20">
-                                {optionTxt}
+                                OR
                             </p>
                             {/* line  */}
                             <div className="relative after:content-[''] after:absolute after:w-1/2 after:h-[2px] after:bg-[#E0E0E0] after:bottom-3  after:left-0 after:-z-10 before:content-[''] before:absolute before:w-1/2 before:h-[2px] before:bg-[#E0E0E0] before:bottom-3 before:right-0 before:-z-10"></div>
