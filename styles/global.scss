@@ -69,3 +69,15 @@ h6 {
 .edgecase {
   @apply text-sm  
 }
+
+.shadow1 {
+  box-shadow: 0px 58px 16px 0px rgba(17, 17, 17, 0.00), 0px 37px 15px 0px rgba(17, 17, 17, 0.01), 0px 21px 13px 0px rgba(17, 17, 17, 0.02), 0px 9px 9px 0px rgba(17, 17, 17, 0.03), 0px 2px 5px 0px rgba(17, 17, 17, 0.04);
+}
+
+.shadow2 {
+  box-shadow: 0px 149px 42px 0px rgba(0, 0, 0, 0.00), 0px 95px 38px 0px rgba(0, 0, 0, 0.01), 0px 54px 32px 0px rgba(0, 0, 0, 0.02), 0px 24px 24px 0px rgba(0, 0, 0, 0.03), 0px 6px 13px 0px rgba(0, 0, 0, 0.04);
+}
+
+.shadow3 {
+  box-shadow: 0px 200px 56px 0px rgba(0, 0, 0, 0.00), 0px 128px 51px 0px rgba(0, 0, 0, 0.00), 0px 72px 43px 0px rgba(0, 0, 0, 0.01), 0px 32px 32px 0px rgba(0, 0, 0, 0.02), 0px 8px 18px 0px rgba(0, 0, 0, 0.02);
+}

@@ -13,7 +13,7 @@ const socialLogInButton = [
 
 const LoginRightSec = ({ heading, discription, haveAnAccount, signup, optionTxt, inputFields = [], formButtons = [], showForm = true, showCheckbox = false, socialLogInButtons = false, showDevide=true }) => {
     return (
-        <div className="px-[7rem] w-1/2 mx-auto">
+        <div className="md:px-[7rem] w-full md:w-1/2 mx-auto">
             {/* text  */}
             <div className="mb-12">
                 <h2 className="text-black">{heading}</h2>

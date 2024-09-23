@@ -17,7 +17,7 @@ const ResetPassword = () => {
   return (
       <section className="login">
           <div className="container mx-auto">
-              <div className="flex items-center">
+              <div className="flex xl:flex-row md:flex-row flex-col items-center gap-6 md:gap-0">
                   {/* left  */}
                   <LoginLeftSec
                       title='Alium'

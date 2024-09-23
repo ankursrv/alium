@@ -23,7 +23,7 @@ const ForgotPassword = () => {
   return (
       <section className="forgotPassword">
           <div className="container mx-auto">
-              <div className="flex items-center">
+              <div className="flex xl:flex-row md:flex-row flex-col items-center gap-6 md:gap-0">
                   {/* left  */}
                   <LoginLeftSec
                       title='Alium'
