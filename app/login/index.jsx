@@ -1,6 +1,6 @@
 import React from "react";
 import LoginLeftSec from "@/components/ui/loginLeftSec";
-import LoginRightSec from "@/components/ui/LoginRightSec";
+import LoginRightSec from "@/components/ui/loginRightSec";
 
 // Social Button Link
 const buttons = [

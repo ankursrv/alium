@@ -122,7 +122,7 @@ const LoginRightSec = ({ heading, discription, haveAnAccount, signup, inputField
                                     key={button.label} // Use a unique key for each button
                                     variant="secondary"
                                     text={button.text}
-                                    icon={<Image src={button.icon} width={20} height={20} />}
+                                    icon={<Image src={button.icon} alt={button.text} width={20} height={20} />}
                                 />
                             ))}
                         </div>
